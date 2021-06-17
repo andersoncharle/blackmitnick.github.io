@@ -1,4 +1,4 @@
-/*Bleak - Personal Portfolio*/
+/*anderson - Personal Portfolio Template*/
 /*Table of content
 ---------
 font
@@ -243,7 +243,7 @@ ul {
     margin-bottom: 30px;
 }
 .about .content-right {
-    background: url(../images/IMG_20210209_131314_502.jpg);
+    background: url(../images/IMG_20210209_131343_104.jpg);
     background-size: cover;
     background-position: 100% 100%;
     height: 100%;
@@ -512,7 +512,7 @@ ul {
     }
 }
 /*blog*/
-.blog .content {
+/* .blog .content {
     background: #262626;
     border-radius: 3px;
 }
@@ -575,7 +575,7 @@ ul {
 .blog .content .blog-title .date span:hover::after {
     height: 10px;
     background: #525252;
-}
+} */
 
 /*contact*/
 .contact .content-left h2 {
@@ -611,6 +611,40 @@ ul {
     padding: 0;
     color: #fff;
 }
+
+#status {
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin:5px 0px 0px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  #status.success {
+    /* background-color: rgb(211, 250, 153); */
+    animation: status 4s ease forwards;
+  }
+  #status.error {
+    /* background-color: rgb(250, 129, 92); */
+    color: white;
+    animation: status 4s ease forwards;
+  }
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
 .contact .content-right .row .form-control:hover {
     border-color: #ff8c05;
 }
@@ -688,9 +722,9 @@ ul {
         text-align: center;
     }
 
-    .blog .content .blog-title h4 {
+    /* .blog .content .blog-title h4 {
         font-size: 22px;
-    }
+    } */
 
     .contact .content-left h2 {
         font-size: 40px;
@@ -732,12 +766,7 @@ ul {
         margin-bottom: 10px;
     }
 
-    .blog .content {
-        margin-bottom: 30px;
-    }
-    .blog .content.no-mb {
-        margin-bottom: 0;
-    }
+    
 
     .contact .content-left {
         margin-bottom: 30px;
