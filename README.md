@@ -1,6 +1,7 @@
 # personal portfolio
 <br>
-This portfolio show the journel of coding of anderson developer and his life of coding in geneal.
+This portfolio shows the journey of coding by Anderson, developer and his life of coding in general.
 <br>
-You can see his personal project,hobbies and his experience in programming.
+ You can see his personal project, hobbies and his experience in programming.
+
 
